@@ -6,7 +6,7 @@ local scripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/local
 local rooms = game.Workspace.GeneratedRooms
 local tweenservice = game:GetService("TweenService")
 
-local ms = {"Good Luck","@dripocapy if you read this dont look in code","Yes im stole these tittles from doors hardcore","Dont ask why a-40 has yellow a-60 face","Always look around you....","Game.players.localplayer:Kick()","Have fun and credits to dima_082ooo.","Im add jumpscares soon"}
+local ms = {"This is outdated, Still good luck..","@dripocapy if you read this dont look in code","Yes im stole these tittles from doors hardcore","Dont ask why a-40 has yellow a-60 face","Always look around you....","Game.players.localplayer:Kick()","Have fun and credits to dima_082ooo.","Im add jumpscares soon"}
 
 
 
@@ -455,9 +455,12 @@ rooms.ChildAdded:Connect(function(added)
 		title("Hell Entrace",10,"rbxassetid://2162238374",true)
 	end
 
+if added.Name == "Room 205" then
+		title("Im surprised you are still going..",10,"rbxassetid://2162238374",true)
+	end
 
 end)
 
-message("HARDCORE ACTIVE",3)
+message("HELL ACTIVE",3)
 message("Made by dima_082ooo and SILENCEHARDCORE8 (LocalPlayer)",3)
 message(ms[math.random(1,#ms)],5)
