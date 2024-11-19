@@ -6,13 +6,13 @@ local scripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/local
 local rooms = game.Workspace.GeneratedRooms
 local tweenservice = game:GetService("TweenService")
 
-local ms = {"This is outdated, Still good luck..","@dripocapy if you read this dont look in code","Yes im stole these tittles from doors hardcore","Dont ask why a-40 has yellow a-60 face","Always look around you....","Game.players.localplayer:Kick()","Have fun and credits to dima_082ooo.","Im add jumpscares soon"}
+local ms = {"This is outdated, Still good luck..","@dripocapy if you read this dont look in code","Yes im stole these tittles from doors hardcore","Dont ask why a-40 has yellow a-60 face","Always look around you....","Game.players.localplayer:Kick()","Have fun and credits to dima_082ooo.","Im add jumpscares soon","Ambience may be broken i dont know how to fix"}
 
 local sound = Instance.new("Sound")
 
 sound.SoundId = "rbxassetid://8202539690"
 
-sound.Volume = 1
+sound.Volume = 1.654
 
 sound.Looped = true
 
@@ -30,7 +30,8 @@ Lighting.FogColor = Color3.new(0, 0, 0)
 
 -- SyncHelper:generateFullRandom(1, 3, os.time())
 
-warn("started")
+warn("script synced n started, good luck.")
+info("ambience is broken")
 
 -- functions
 
