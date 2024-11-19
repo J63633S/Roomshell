@@ -16,7 +16,7 @@ sound.Volume = 1
 
 sound.Looped = true
 
-sound:Play()
+sound:Play(true)
 
 sound.Parent = workspace
 
