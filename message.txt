@@ -8,7 +8,25 @@ local tweenservice = game:GetService("TweenService")
 
 local ms = {"This is outdated, Still good luck..","@dripocapy if you read this dont look in code","Yes im stole these tittles from doors hardcore","Dont ask why a-40 has yellow a-60 face","Always look around you....","Game.players.localplayer:Kick()","Have fun and credits to dima_082ooo.","Im add jumpscares soon"}
 
+local sound = Instance.new("Sound")
 
+sound.SoundId = "rbxassetid://8202539690"
+
+sound.Volume = 1
+
+sound.Looped = true
+
+sound:Play()
+
+sound.Parent = workspace
+
+-- new fog
+local Lighting = game:GetService("Lighting")
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 50
+Lighting.FogStart = 35
+Lighting.FogColor = Color3.new(0, 0, 0)
 
 -- SyncHelper:generateFullRandom(1, 3, os.time())
 
