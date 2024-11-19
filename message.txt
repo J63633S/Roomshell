@@ -16,7 +16,7 @@ sound.Volume = 1.654
 
 sound.Looped = true
 
-sound:Play(true)
+sound:Play() = true
 
 sound.Parent = workspace
 
@@ -137,7 +137,7 @@ function spawn(model,back)
     entity.Parent = game.Workspace.Entities
     entity.CFrame = start
 
-    print("Entity spawned")
+    print("HIDE!!")
 
     return entity
 
